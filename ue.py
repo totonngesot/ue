@@ -207,7 +207,7 @@ def process_account(init_data, account_number):
                 waiting_for_reward_displayed = True
 
 if __name__ == "__main__":
-    with open('akun.txt', 'r') as file:
+    with open('query_id.txt', 'r') as file:
         accounts = file.readlines()
 
     threads = []
